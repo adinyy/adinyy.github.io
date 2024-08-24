@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Space+Grotesk:wght@700&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Special+Elite&display=swap');
+#logo-container {
+    
+    width: 360px;
+    height: 240px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-container .pic{
+    margin-right:200px;
+}
+
+
+#logo-container .pic:last-child{
+    margin-right:0;
+}
+
+body{
+
+    background: linear-gradient(#f9f9f9,grey);
+    margin:1em;
+}
+#logo{
+    margin-top: 100px;
+    height: 240px;
+    align-self: center;
+}
+
+#boat{
+    height: 500px;
+}
+
+.desc{
+    font-size: medium;
+}
+.textcont{
+    margin-top: 100px;
+    margin-left: 10px;
+    width:300px;
+    height:50px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Special Elite', system-ui;
+}
+
+.holder{
+    margin-left: 150px;
+    margin-top:100px;
+    height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    width:60vh;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    z-index: 9999;
+    display: flex; /* Add this */
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+.navbar a {
+    color:#23bbad;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navbar a.selected {
+    color: #f92672;
+}
+.navbar a:hover {
+    color: #f92672;
+}
+
+.lnkd img{
+    margin-top: 10px;
+    margin-left:10px;
+    height: 50px;
+}
