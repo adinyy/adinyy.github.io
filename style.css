@@ -76,6 +76,7 @@ body{
     margin-top:5vh;
     margin-left: 20%;
     margin-right: 20%;
+    width:60vw;
 }
 
 .holder{
@@ -83,7 +84,7 @@ body{
     margin-right:20%;
     margin-top:10vh;
     height: 55vh;
-    width:40vw
+    
 }
 
 .navbar {
