@@ -13,7 +13,7 @@
 /* Body Styling */
 body {
     background-color: white;
-    margin:5em 10em 0em;
+    margin:5em 10em 0em 0em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -88,7 +88,7 @@ body {
     font-size: 1.2rem; /* Made font size responsive */
     text-align: left;
     padding: 20px;
-    width:150%;
+    width:30vw;
     
     
 }
