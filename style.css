@@ -13,7 +13,7 @@
 /* Body Styling */
 body {
     background-color: white;
-    margin:5em 10em 0em 0em;
+    margin: 1em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,7 +27,6 @@ body {
     z-index: 9999;
     display: flex;
     justify-content: right;
-    max-width: 100%;
      /* Added background color */
 }
 
@@ -58,18 +57,15 @@ body {
     margin-left: 10%;
     margin-top:5vh;
     margin-bottom: 20px; /* Spacing below logo container */
-    
 }
 
 #logo {
     height: 25vh;
     margin: 10px;
-    max-width:100%;
 }
 .holder{
     display: flex;
     justify-content: space-between;
-
 }
 .gap{
     margin-right:10vw;
@@ -90,7 +86,6 @@ body {
     padding: 20px;
     width:30vw;
     
-    
 }
 
 /* Text Content */
@@ -100,7 +95,6 @@ body {
     margin-left:0;
     overflow-wrap: break-word;
     font-family: 'Special Elite', system-ui;
-    max-width: 100%;
 }
 
 
@@ -113,7 +107,6 @@ body {
     padding-top: 20px;
     width: 80%; /* Matches the width of the text */
     margin-left: 10%; /* Matches the left margin with text */
-    max-width: 100%;
 }
 
 /* General Text Styling */
@@ -124,7 +117,6 @@ body {
     margin: 20px auto;
     width: 80%;
     margin-left: 10%;
-    max-width: 100%;
 }
 
 /* Profile Picture */
@@ -147,7 +139,6 @@ body {
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    max-width: 100%;
 }
 
 .carousel {
