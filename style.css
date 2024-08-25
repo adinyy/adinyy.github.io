@@ -14,21 +14,18 @@
 
 #logo-container {
     
-    width: 360px;
-    height: 240px;
+    width: 100vh;
+    height: 25vh;
     background-size: cover;
     display: flex;
     justify-content: space-between;
 }
 
-#logo-container .pic{
-    margin-right:200px;
-}
-
-
 #logo-container .pic:last-child{
-    margin-right:0;
+    margin-left:18vh;
 }
+
+
 
 body{
 
