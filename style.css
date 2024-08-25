@@ -20,13 +20,14 @@ body {
 /* Navbar Styling */
 .navbar {
     position: fixed;
-    width: 100%;
+    width: 50%;
     top: 0;
     right: 0;
     padding: 10px 20px;
     z-index: 9999;
     display: flex;
     justify-content: right;
+    max-width: 100%;
      /* Added background color */
 }
 
@@ -57,15 +58,18 @@ body {
     margin-left: 10%;
     margin-top:5vh;
     margin-bottom: 20px; /* Spacing below logo container */
+    
 }
 
 #logo {
     height: 25vh;
     margin: 10px;
+    max-width:100%;
 }
 .holder{
     display: flex;
     justify-content: space-between;
+
 }
 .gap{
     margin-right:10vw;
@@ -85,6 +89,7 @@ body {
     text-align: left;
     padding: 20px;
     width:30vw;
+    max-width: 100%;
     
 }
 
@@ -95,6 +100,7 @@ body {
     margin-left:0;
     overflow-wrap: break-word;
     font-family: 'Special Elite', system-ui;
+    max-width: 100%;
 }
 
 
@@ -107,6 +113,7 @@ body {
     padding-top: 20px;
     width: 80%; /* Matches the width of the text */
     margin-left: 10%; /* Matches the left margin with text */
+    max-width: 100%;
 }
 
 /* General Text Styling */
@@ -117,6 +124,7 @@ body {
     margin: 20px auto;
     width: 80%;
     margin-left: 10%;
+    max-width: 100%;
 }
 
 /* Profile Picture */
@@ -139,6 +147,7 @@ body {
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .carousel {
@@ -205,6 +214,9 @@ body {
 @media (max-width: 768px) {
     #logo {
         height: 10vh;
+    }
+    .navbar a {
+        font-size: 0.8rem;
     }
 
     #boat {
