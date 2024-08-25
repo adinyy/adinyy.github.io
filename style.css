@@ -129,3 +129,67 @@ body{
     height: 50vh;
     border-radius: 20px;
 }
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 60%; /* 100% minus 20% margin on each side */
+    margin: 0 auto; /* centers the carousel container */
+  }
+
+  .carousel {
+    display: flex;
+    margin: 0 -10px; /* negative margin to compensate for padding */
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    padding: 0 10px; /* adds space on the edges inside the container */
+  }
+
+  .carousel-item {
+    flex: 0 0 calc(33.33% - 20px); /* adjust width for space between items */
+    margin: 0 10px; /* space between tiles */
+    box-sizing: border-box; /* ensures padding and border are included in width */
+  }
+
+  .carousel-item img {
+    width: 100%;
+    display: block;
+  }
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px; /* Increase font size for visibility */
+    z-index: 10; /* Ensures buttons are above images */
+  }
+
+  .prev {
+    left: 0; /* Position to the left of the first image */
+  }
+
+  .next {
+    right: 0; /* Position to the right of the third image */}
+  #car{
+    border-radius: 20px;
+  }
+  .copyright {
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding for space */
+   /* Light background color */
+    font-size: 14px; /* Font size */
+    color: #555; /* Text color */
+    position: relative; /* Position relative for standard footer */
+    bottom: 0; /* Stick to bottom when positioned relatively */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space between the last content and footer */
+  }
+  
+  
