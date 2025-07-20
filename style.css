@@ -154,6 +154,7 @@ body {
     flex: 0 0 33.33%; /* Three items per view */
     margin: 10px;
     box-sizing: border-box;
+    box-shadow: #555;
 }
 
 .carousel-item img {
